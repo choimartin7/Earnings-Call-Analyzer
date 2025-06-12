@@ -6,7 +6,6 @@ import logging
 import re
 import time
 
-mkvirtualenv my-venv --python=python3.8
 
 # Set up logging
 logging.basicConfig(
