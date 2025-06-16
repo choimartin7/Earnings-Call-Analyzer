@@ -262,11 +262,9 @@ def predict():
         logger.error(f"Error making prediction: {e}")
         return jsonify({'error': f'Prediction failed: {str(e)}'}), 500
 if __name__ == '__main__':
-    # Load model at startup
-    if load_model() or MOCK_MODE:
-        # Run the Flask app
-        port = int(os.environ.get("PORT", 5000))  # Default to 5000 if PORT is not set
-        app.run(debug=True, host='0.0.0.0', port=port)
+    # Run the Flask app
+    port = int(os.environ.get("PORT", 5000))  # Default to 5000 if PORT is not set
+    app.run(debug=True, host='0.0.0.0', port=port)
     else:
         logger.error("Failed to load model. Exiting.")
         sys.exit(1)
