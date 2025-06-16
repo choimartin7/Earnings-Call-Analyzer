@@ -1,3 +1,4 @@
+PS: Most the files are simply here for hosting the backend server using this git repository. If you want to run the whole yourself, just download the 3 folders (backend, frontend, final model) and follow the instructions below.
 # FinBERT Earnings Call Analyzer UI
 
 A web interface for analyzing earnings call transcripts using the fine-tuned FinBERT model. This application predicts sentiment and 1-day price changes from earnings call transcripts.
