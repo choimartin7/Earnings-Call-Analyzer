@@ -38,11 +38,7 @@ The project is divided into two main parts:
    pip install -r requirements.txt
    ```
 
-3. Make sure the model is in the correct location:
-   - The backend looks for the model in `../improved_finbert_multitask_model` or `./improved_finbert_multitask_model`
-   - If your model is located elsewhere, update the `model_path` variable in `app.py`
-
-4. Start the Flask server:
+3. Start the Flask server:
    ```bash
    python app.py
    ```
