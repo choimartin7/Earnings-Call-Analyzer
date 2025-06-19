@@ -1,4 +1,4 @@
-PS: Most the files are simply here for hosting the backend server using this git repository. If you want to run the whole yourself, just download the 3 folders (backend, frontend, final model) and follow the instructions below.
+PS: The backend files are also on surface level because I use this repo to host the server at https://earnings-call-analyzer.onrender.com. If you want to run the whole app locally, just download the 3 folders (backend, frontend, final model) and follow the instructions below. (P.S. Remember to change the api destination in the vite.config.js to http://localhost:5000)
 # FinBERT Earnings Call Analyzer UI
 
 A web interface for analyzing earnings call transcripts using the fine-tuned FinBERT model. This application predicts sentiment and 1-day price changes from earnings call transcripts.
