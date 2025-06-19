@@ -1,3 +1,5 @@
+Visit https://earnings-call-analyzer-fw5j.vercel.app/ to try it out
+
 PS: The backend files are also on surface level because I use this repo to host the server at https://earnings-call-analyzer.onrender.com. If you want to run the whole app locally, just download the 3 folders (backend, frontend, final model) and follow the instructions below. (P.S. Remember to change the api destination in the vite.config.js to http://localhost:5000)
 # FinBERT Earnings Call Analyzer UI
 
