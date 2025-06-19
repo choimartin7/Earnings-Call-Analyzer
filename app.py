@@ -62,7 +62,7 @@ def load_model():
         logger.info(f"Using device: {device}")
         
         # Paths to model files
-        model_path = './improved_finbert_finetuning.py'
+        model_path = './Final Model'
         
         # Check if model directory exists
         if not os.path.exists(model_path):
