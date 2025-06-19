@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://earnings-call-analyzer.onrender.com/api/$1"
+    }
+  ]
+}
